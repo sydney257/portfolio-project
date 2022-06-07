@@ -64,6 +64,12 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding-accent:hover {
+  background: var(--branding-color);
+  color: #fff;
+  border-color: var(--branding-color);
+}
+
 .project-description {
   padding: 80px 20px;
 }
