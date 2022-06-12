@@ -71,23 +71,35 @@ p {
   padding: 80px 20px;
 }
 
-.about-section {
-  padding: 120px 20px;
+.content-container {
+  padding: 60px 20px;
 }
 
-.about-section h1 {
+.introduction {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h1 {
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .portrait {
@@ -108,7 +120,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
