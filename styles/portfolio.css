@@ -24,7 +24,7 @@ p {
 }
 
 .hero {
-  background: var(--accent-color);
+  background: #fff3f5;
   text-align: center;
   padding: 160px 20px;
 }
@@ -106,6 +106,38 @@ p {
   border-radius: 10px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-family: var(--default-font-family);
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -128,5 +160,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
