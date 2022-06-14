@@ -34,6 +34,10 @@ p {
   padding: 80px 20px;
 }
 
+.hero-btn a {
+  margin: 0 20px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -222,5 +226,10 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  .hero-btn a {
+    font-size: 14px;
+    padding: 10px 10px;
   }
 }
