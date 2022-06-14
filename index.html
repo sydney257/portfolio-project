@@ -26,7 +26,11 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Sydney Mercado is a new front-end engineer based in San Francisco, CA"
+    />
+    <title>Front-end Developer | Sydney Mercado</title>
   </head>
   <body>
     <div class="container">
@@ -35,26 +39,28 @@
           <img
             src="images/logo.png"
             alt="logo"
+            title="SheCodes"
             class="logo d-none d-md-block"
           />
           <img
             src="images/logo-small.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="small logo"
+            title="SheCodes"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Sydney">About</a>
           </li>
           <li>
-            <a href="/portfolio.html">Work</a>
+            <a href="/portfolio.html" title="My Portfolio">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Me">Contact</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +70,7 @@
       <h1>Sydney Mercado</h1>
       <h2 class="mb-5">Front-end developer based in San Francisco</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
         <a href="/about.html" class="btn btn-branding-accent">View my work</a>
       </div>
     </div>
@@ -74,8 +80,8 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/cookies.png"
-            class="img-fluid"
-            alt="Cookie website"
+            class="img-fluid rounded"
+            alt="Cookie website preview"
           />
         </div>
         <div class="col">
@@ -87,7 +93,12 @@
               decided to feature my favorite cookie shop. The main requirements
               were to use HTML and CSS to design the landing page.
             </p>
-            <a href="#" class="btn btn-branding-accent">Learn more</a>
+            <a
+              href="/portfolio.html"
+              class="btn btn-branding-accent"
+              title="See work"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -101,16 +112,29 @@
               enter a city in the search bar or click on the 'currently' button
               to get the weather details for your current location.
             </p>
-            <a href="#" class="btn btn-branding-accent">Learn more</a>
+            <a
+              href="/portfolio.html"
+              class="btn btn-branding-accent"
+              title="See work"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app.png" class="img-fluid" alt="weather" />
+          <img
+            src="images/weather.png"
+            class="img-fluid rounded"
+            alt="Weather project preview"
+          />
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="dictionary" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid rounded"
+            alt="Dictionary project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -121,7 +145,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-accent">Learn more</a>
+            <a
+              href="/portfolio.html"
+              class="btn btn-branding-accent"
+              title="See work"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -130,29 +159,63 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-4">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact me"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:sydmercad@gmail.com" class="email-link"
+          <a
+            href="mailto:sydmercad@gmail.com"
+            class="email-link"
+            title="Send an email"
             >sydmercad@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.facebook.com/sydney.b.mercado" target="_blank"
+          <a
+            href="https://www.facebook.com/sydney.b.mercado"
+            target="_blank"
+            title="Facebook profile"
             ><i class="fa-brands fa-facebook"></i
           ></a>
-          <a href="https://www.instagram.com/sydneymarket" target="_blank"
+          <a
+            href="https://www.instagram.com/sydneymarket"
+            target="_blank"
+            title="Instagram profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/sydney257" target="_blank"
+          <a
+            href="https://www.github.com/sydney257"
+            target="_blank"
+            title="Github profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Sydney through
+          <a
+            href="https://www.shecodes.io"
+            target="_blank"
+            title="SheCodes website"
+          >
+            SheCodes</a
+          >, and is
+          <a
+            href="https://www.github.com/sydney257/portfolio-project"
+            target="_blank"
+            title="GitHub repository"
+          >
+            open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
