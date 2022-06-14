@@ -117,6 +117,16 @@ p {
   max-height: 40px;
 }
 
+.project {
+  text-decoration: none;
+  color: #000;
+}
+
+.project a:hover {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 nav {
   padding: 10px 0;
 }
